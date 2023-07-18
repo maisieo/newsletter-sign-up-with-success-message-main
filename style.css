@@ -1,0 +1,25 @@
+/* General assets */
+
+body {
+    background-color: hsl(234, 29%, 20%);
+}
+
+.container {
+    background-color: white;
+    margin: 21% auto;
+    width: 47%;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-content {
+    flex: 1;
+}
+
+.right-content {
+    flex: 1;
+    text-align: right;
+}
