@@ -2,21 +2,27 @@
 
 body {
     background-color: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
 }
 
 .container {
     background-color: white;
-    margin: 21% auto;
-    width: 47%;
+    border-radius: 2em;
 }
 
 .content-container {
     display: flex;
     align-items: center;
+    padding: 4%;
+    /* border-radius: 2em!important; */
 }
 
 .left-content {
     flex: 1;
+    margin: 20px;
 }
 
 .right-content {
