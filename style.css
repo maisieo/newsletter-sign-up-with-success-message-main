@@ -86,3 +86,20 @@ input {
     font-weight: 700;
     cursor: pointer;
 }
+
+#dismissButton {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#dismissButton:hover {
+    background-color: hsl(4, 100%, 67%);
+}
+
+#warningMessage {
+    color: red;
+    display: none;
+}

@@ -40,7 +40,8 @@
         <div class="email-section">
           <p>Email address</p>
           <div class="newsletter-form">
-            <input type="email" placeholder="email@company.com">
+            <input type="email" id="emailInput" placeholder="email@company.com">
+            <div id="warningMessage">Please enter a valid email address.</div>
             <button class="subscribe-btn">Subscribe to monthly newsletter</button>
           </div>
         </div>
@@ -54,13 +55,12 @@
 
     <!-- Success message start -->
 
-    <!-- Thanks for subscribing!
-
-    A confirmation email has been sent to ash@loremcompany.com.
-    Please open it and click the button inside to confirm your subscription.
-
-    Dismiss message -->
-
+  <div id="successMessage" style="color: green;display:none;">
+    <h2>Thanks for subscribing!</h2>
+    <p>A confirmation email has been sent to <span id="confirmationEmail"></span>.<br>
+      Please open it and click the button inside to confirm your subscription.</p>
+    <button id="dismissButton">Dismiss message</button>
+  </div>
 
 
     <!-- Sign-up form start -->
@@ -80,22 +80,10 @@
  -->
 
 
-    <!-- Sign-up form end -->
-
-    <!-- Success message start -->
-<!-- 
-    Thanks for subscribing!
-
-    A confirmation email has been sent to ash@loremcompany.com.
-    Please open it and click the button inside to confirm your subscription.
-
-    Dismiss message -->
-
   </div>
 
-  <!-- Success message end -->
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
