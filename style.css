@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* width: 28rem; */
+}
+
+html, body {
+    height:100%;
 }
 
 body {
@@ -12,7 +15,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 5%; */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -28,6 +30,7 @@ body {
     padding: 4%;
 }
 
+/* Left Content */
 .left-content {
     flex: 1;
     padding: 30px;
@@ -47,17 +50,20 @@ body {
     margin-bottom: 20px;
 }
 
+/* Right Content */
 .right-content {
     flex: 1;
     text-align: right;
 }
 
+/* Typography */
 h2 {
     font-size: 56px;
     margin: 0;
     padding: 0;
 }
 
+/* Newsletter Form */
 .newsletter-form {
     display: flex;
     flex-direction: column;
@@ -71,11 +77,13 @@ input {
     border-radius: 5px;
 }
 
+/* Bullet List */
 .bullet-list {
     padding-left: 20px;
     list-style-image: url("/assets/images/icon-list.svg");
 }
 
+/* Subscribe Button */
 .subscribe-btn {
     background-color: hsl(234, 29%, 20%);
     color: white;
@@ -87,6 +95,7 @@ input {
     cursor: pointer;
 }
 
+/* Dismiss Button */
 #dismissButton {
     background-color: transparent;
     border: none;
@@ -99,6 +108,7 @@ input {
     background-color: hsl(4, 100%, 67%);
 }
 
+/* Warning Message */
 #warningMessage {
     color: red;
     display: none;
